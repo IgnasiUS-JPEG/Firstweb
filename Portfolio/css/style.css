@@ -1,0 +1,251 @@
+@font-face {
+    font-family: poppinsbold;
+    src: url(../Poppins-Bold.ttf);
+  }
+@font-face {
+    font-family: poppinsreg;
+    src: url(../Poppins-Regular.ttf);
+  }
+  
+
+
+.navbar-brand img{
+    max-width: 162px;
+    max-height: 115px;
+    margin-left: 20%;
+}
+
+.mb-3{
+    width: 10cm;
+    margin-left: 60%;
+    margin-top: 10%;
+    
+}
+
+.form-label{
+    font-family: poppinsbold;
+    font-size: larger;
+    background: -webkit-linear-gradient(#D11678,#9408FB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mb-4{
+    width: 10cm;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.col-12{
+    padding-left: 67%;
+    padding-top: 2%;
+    background-color: linear-gradient(#D11678,#9408FB);
+    font-family: poppinsreg;
+}
+.custom{
+    width: 5cm;
+}
+.btn-primary, .btn-primary:active {
+    background-color: #9408FB;
+    border-color:  #9408FB;
+    font-family: poppinsreg;
+}
+.btn-primary:hover{
+    background-color: #3d0168;
+    border-color:  #5a0299;
+    font-family: poppinsreg;
+}
+.btn-primary:visited{
+    background-color: #5a0299;
+    border-color:  #5a0299;
+    font-family: poppinsreg;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color:#0f1123 !important;
+  border-color: #5a0299 ;
+  color:#ffbd69;
+ 
+}
+input:not(:placeholder-shown) {
+   background-color:  #ffbd69!important;
+   font-family: poppinsbold ;
+   border-color: #ffbd69 ;
+   box-shadow: 10px 6px 1px 1px #b143ff;
+  
+}
+
+input:placeholder-shown {
+   background-color:  #0f1123!important;
+   font-family: poppinsreg;
+   border-color: #0f1123 ;
+   height: 1cm;
+   box-shadow: 10px 6px 1px 1px #b143ff;
+   
+}
+
+.container{
+   display: flex;
+   margin-bottom:600px ;
+}
+
+.animate__fadeInDown{
+    animation-duration: 2s;
+}
+
+.animate__zoomInDown{
+    animation-duration: 1s;
+    text-align: center;
+    color: #b143ff;
+    font-family: poppinsbold;
+    position: relative;
+    top: 2cm;
+}
+.teks{
+    font-family: poppinsreg;
+    color:  #ffbd69 ;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 2.5cm;
+}
+
+.animate__tada{
+    animation-duration: 2s;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 14.5cm;
+    top: 1cm;
+}
+
+.animate__tada img{
+    border: 5px;
+    border-color:#ffbd69 ;
+}
+.animate__tada img:hover{
+    position: relative;
+    top: 20px;
+}
+
+.gambar{
+    position: relative;
+    bottom: 290px;
+    height: 8cm;
+    right: 20px;
+
+}
+
+.nav-link{
+    color: #b143ff;
+    font-family: poppinsbold;
+    font-size: larger;
+}
+.nav-link:hover{
+    color: #ffbd69;
+    font-family: poppinsbold;
+    font-size: larger;
+}
+
+.dropdown-item{
+    color: rgb(139, 0, 0);
+    font-family: poppinsbold;
+}
+
+.dropdown-item:hover{
+     color: rgb(139, 0, 0);
+     background-color: rgba(255, 167, 167, 0.205);
+    font-family: poppinsbold;
+    cursor: pointer;
+}
+.card{
+    position: relative;
+    top: 200px;
+    background-color: #0f1123 ;
+    border-radius: 20px;
+}
+.card-img-top{
+    color: #b143ff;
+    border-radius: 20px;
+}
+
+.kartu2{
+    position: relative;
+    left: 100px;
+}
+
+.kartu3{
+    position: relative;
+    left: 200px;
+}
+
+.card-body{
+    color: #ffbd69 ;
+    font-family:poppinsreg; ;
+}
+.card-title{
+    font-family:poppinsbold ;
+}
+
+.card:hover{
+    box-shadow: 10px 6px 1px 1px #b143ff;
+    border-color: #ffbd69;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+h1{
+    color: #b143ff;
+    font-family: poppinsbold;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    top:80px;
+    left:0px;
+}
+
+h2{
+    font-family: poppinsbold;
+    color:    #ffbd69;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    top:150px;
+    left:170px;
+}
+
+h3{
+    font-family: poppinsreg;
+    color:    #ffbd69;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    top:300px;
+    right:100px;
+}
+.pencetan{
+    position: relative;
+    top:450px;
+    right:200px;
+}
+
+.containersatu{
+    display: flex;
+    margin-bottom:400px ;
+}
+.checkbox{
+    position: relative;
+    right: 780px;
+    height: 20px;
+    width: 20px;
+}
+h7{
+    font-family: poppinsreg;
+    color:    #b143ff;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    top:420px;
+    right:830px;
+}
+
